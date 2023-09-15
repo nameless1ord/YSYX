@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/wzm/YSYX/ysyx-workbench/Chisel/work/something_try/2.1_first_module.scala:1:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval path = System.getProperty("user.dir") + "/source/load-ivy.sc"[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wzm/YSYX/ysyx-workbench/Chisel/work/something_try/2.1_first_module.scala:2:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0minterp.load.module(ammonite.ops.Path(java.nio.file.FileSystems.getDefault().getPath(path)))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wzm/YSYX/ysyx-workbench/Chisel/work/something_try/2.1_first_module.scala:21:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mprintln(getVerilog(new Passthrough))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
