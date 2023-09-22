@@ -51,20 +51,11 @@ VL_INLINE_OPT void Vtop___024root___nba_sequent__TOP__0(Vtop___024root* vlSelf) 
                                          (0x7fU & ((IData)(vlSelf->top__DOT__shifter_out) 
                                                    >> 1U)));
     }
-    vlSelf->seg0 = (0xffU & (~ ((9U >= (0xfU & VL_MODDIV_III(32, (IData)(vlSelf->top__DOT__shifter_out), (IData)(0xaU))))
-                                 ? vlSelf->top__DOT__mu_seg__DOT__segs
-                                [(0xfU & VL_MODDIV_III(32, (IData)(vlSelf->top__DOT__shifter_out), (IData)(0xaU)))]
-                                 : 0U)));
-    vlSelf->seg1 = (0xffU & (~ ((9U >= (0xfU & VL_MODDIV_III(32, 
-                                                             VL_DIV_III(32, (IData)(vlSelf->top__DOT__shifter_out), (IData)(0xaU)), (IData)(0xaU))))
-                                 ? vlSelf->top__DOT__mu_seg__DOT__segs
-                                [(0xfU & VL_MODDIV_III(32, 
-                                                       VL_DIV_III(32, (IData)(vlSelf->top__DOT__shifter_out), (IData)(0xaU)), (IData)(0xaU)))]
-                                 : 0U)));
-    vlSelf->seg2 = (0xffU & (~ ((9U >= (0xfU & VL_DIV_III(32, (IData)(vlSelf->top__DOT__shifter_out), (IData)(0x64U))))
-                                 ? vlSelf->top__DOT__mu_seg__DOT__segs
-                                [(0xfU & VL_DIV_III(32, (IData)(vlSelf->top__DOT__shifter_out), (IData)(0x64U)))]
-                                 : 0U)));
+    vlSelf->seg0 = (0xffU & (~ vlSelf->top__DOT__mu_seg__DOT__segs
+                             [(0xfU & (IData)(vlSelf->top__DOT__shifter_out))]));
+    vlSelf->seg1 = (0xffU & (~ vlSelf->top__DOT__mu_seg__DOT__segs
+                             [(0xfU & ((IData)(vlSelf->top__DOT__shifter_out) 
+                                       >> 4U))]));
 }
 
 void Vtop___024root___eval_nba(Vtop___024root* vlSelf) {

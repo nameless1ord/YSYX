@@ -1,0 +1,33 @@
+2023.09.20 20:08:29 INFO  Started: Metals version 1.0.1 in folders '/home/wzm/YSYX/ysyx-workbench/预学习/digital-circuit-experiment/work/work6' for client Visual Studio Code 1.82.2.
+9月 20, 2023 8:08:29 下午 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+信息: Flyway Community Edition 9.21.2 by Redgate
+9月 20, 2023 8:08:29 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: See release notes here: https://rd.gt/416ObMi
+9月 20, 2023 8:08:29 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: 
+9月 20, 2023 8:08:29 下午 org.flywaydb.core.FlywayExecutor execute
+信息: Database: jdbc:h2:file:/home/wzm/YSYX/ysyx-workbench/预学习/digital-circuit-experiment/work/work6/.metals/metals (H2 2.1)
+9月 20, 2023 8:08:29 下午 org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+信息: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+9月 20, 2023 8:08:29 下午 org.flywaydb.core.internal.command.DbValidate validate
+信息: Successfully validated 4 migrations (execution time 00:00.008s)
+9月 20, 2023 8:08:29 下午 org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+信息: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+9月 20, 2023 8:08:29 下午 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+信息: Current version of schema "PUBLIC": << Empty Schema >>
+9月 20, 2023 8:08:29 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "1 - Create tables"
+9月 20, 2023 8:08:29 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "2 - Server discovery"
+9月 20, 2023 8:08:29 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+9月 20, 2023 8:08:29 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+9月 20, 2023 8:08:29 下午 org.flywaydb.core.internal.command.DbMigrate logSummary
+信息: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.010s)
+2023.09.20 20:08:29 INFO  time: initialize in 0.31s
+2023.09.20 20:08:30 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2023.09.20 20:09:16 INFO  Found Java version 11. Scala CLI requires at least Java 17, getting a temurin:17 JVM via coursier-jvm.
+2023.09.20 20:09:22 INFO  Shutting down server
+2023.09.20 20:09:22 INFO  shutting down Metals
+2023.09.20 20:09:22 INFO  Exiting server

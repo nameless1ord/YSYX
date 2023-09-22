@@ -38,9 +38,15 @@ VL_ATTR_COLD void Vtop___024root___eval_initial__TOP(Vtop___024root* vlSelf) {
     vlSelf->top__DOT__mu_seg__DOT__segs[5U] = 0xb6U;
     vlSelf->top__DOT__mu_seg__DOT__segs[6U] = 0xbeU;
     vlSelf->top__DOT__mu_seg__DOT__segs[7U] = 0xe0U;
-    vlSelf->top__DOT__mu_seg__DOT__segs[8U] = 0xffU;
-    vlSelf->top__DOT__mu_seg__DOT__segs[9U] = 0xf7U;
-    vlSelf->seg3 = 2U;
+    vlSelf->top__DOT__mu_seg__DOT__segs[8U] = 0xfeU;
+    vlSelf->top__DOT__mu_seg__DOT__segs[9U] = 0xf6U;
+    vlSelf->top__DOT__mu_seg__DOT__segs[0xaU] = 0xeeU;
+    vlSelf->top__DOT__mu_seg__DOT__segs[0xbU] = 0x3eU;
+    vlSelf->top__DOT__mu_seg__DOT__segs[0xcU] = 0x9cU;
+    vlSelf->top__DOT__mu_seg__DOT__segs[0xdU] = 0xfcU;
+    vlSelf->top__DOT__mu_seg__DOT__segs[0xeU] = 0x9eU;
+    vlSelf->top__DOT__mu_seg__DOT__segs[0xfU] = 0x8eU;
+    vlSelf->seg2 = 2U;
 }
 
 VL_ATTR_COLD void Vtop___024root___eval_final(Vtop___024root* vlSelf) {
@@ -105,24 +111,16 @@ VL_ATTR_COLD void Vtop___024root___stl_sequent__TOP__0(Vtop___024root* vlSelf) {
     vlSelf->ledr = (1U & ((IData)(vlSelf->sw) >> 8U));
     vlSelf->top__DOT____Vcellinp__shifter0__clk = (1U 
                                                    & (IData)(vlSelf->BTN));
-    vlSelf->seg4 = vlSelf->seg3;
-    vlSelf->seg5 = vlSelf->seg3;
-    vlSelf->seg6 = vlSelf->seg3;
-    vlSelf->seg7 = vlSelf->seg3;
-    vlSelf->seg0 = (0xffU & (~ ((9U >= (0xfU & VL_MODDIV_III(32, (IData)(vlSelf->top__DOT__shifter_out), (IData)(0xaU))))
-                                 ? vlSelf->top__DOT__mu_seg__DOT__segs
-                                [(0xfU & VL_MODDIV_III(32, (IData)(vlSelf->top__DOT__shifter_out), (IData)(0xaU)))]
-                                 : 0U)));
-    vlSelf->seg1 = (0xffU & (~ ((9U >= (0xfU & VL_MODDIV_III(32, 
-                                                             VL_DIV_III(32, (IData)(vlSelf->top__DOT__shifter_out), (IData)(0xaU)), (IData)(0xaU))))
-                                 ? vlSelf->top__DOT__mu_seg__DOT__segs
-                                [(0xfU & VL_MODDIV_III(32, 
-                                                       VL_DIV_III(32, (IData)(vlSelf->top__DOT__shifter_out), (IData)(0xaU)), (IData)(0xaU)))]
-                                 : 0U)));
-    vlSelf->seg2 = (0xffU & (~ ((9U >= (0xfU & VL_DIV_III(32, (IData)(vlSelf->top__DOT__shifter_out), (IData)(0x64U))))
-                                 ? vlSelf->top__DOT__mu_seg__DOT__segs
-                                [(0xfU & VL_DIV_III(32, (IData)(vlSelf->top__DOT__shifter_out), (IData)(0x64U)))]
-                                 : 0U)));
+    vlSelf->seg3 = vlSelf->seg2;
+    vlSelf->seg4 = vlSelf->seg2;
+    vlSelf->seg5 = vlSelf->seg2;
+    vlSelf->seg6 = vlSelf->seg2;
+    vlSelf->seg7 = vlSelf->seg2;
+    vlSelf->seg0 = (0xffU & (~ vlSelf->top__DOT__mu_seg__DOT__segs
+                             [(0xfU & (IData)(vlSelf->top__DOT__shifter_out))]));
+    vlSelf->seg1 = (0xffU & (~ vlSelf->top__DOT__mu_seg__DOT__segs
+                             [(0xfU & ((IData)(vlSelf->top__DOT__shifter_out) 
+                                       >> 4U))]));
 }
 
 VL_ATTR_COLD void Vtop___024root___eval_stl(Vtop___024root* vlSelf) {
@@ -210,7 +208,7 @@ VL_ATTR_COLD void Vtop___024root___ctor_var_reset(Vtop___024root* vlSelf) {
     vlSelf->top__DOT__shifter_out = 0;
     vlSelf->top__DOT____Vcellinp__shifter0__clk = 0;
     vlSelf->top__DOT__shifter0__DOT__y8 = 0;
-    for (int __Vi0 = 0; __Vi0 < 10; ++__Vi0) {
+    for (int __Vi0 = 0; __Vi0 < 16; ++__Vi0) {
         vlSelf->top__DOT__mu_seg__DOT__segs[__Vi0] = 0;
     }
     vlSelf->__Vtrigrprev__TOP__rst = 0;

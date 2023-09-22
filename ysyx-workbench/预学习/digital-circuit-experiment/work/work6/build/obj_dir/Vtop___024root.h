@@ -44,7 +44,7 @@ class Vtop___024root final : public VerilatedModule {
     IData/*31:0*/ __VstlIterCount;
     IData/*31:0*/ __VicoIterCount;
     IData/*31:0*/ __VactIterCount;
-    VlUnpacked<CData/*7:0*/, 10> top__DOT__mu_seg__DOT__segs;
+    VlUnpacked<CData/*7:0*/, 16> top__DOT__mu_seg__DOT__segs;
     VlTriggerVec<1> __VstlTriggered;
     VlTriggerVec<1> __VicoTriggered;
     VlTriggerVec<1> __VactTriggered;
